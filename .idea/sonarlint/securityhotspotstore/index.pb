@@ -9,3 +9,5 @@ I
 pages/api/people/index.ts,5/c/5c807ebb71210c5b3c4fbfef482b33b645447610
 G
 pages/api/auth/index.ts,f/b/fb404eeeaa906c5c8f9718e3c5baf5e095298bd7
+U
+%pages/api/auth/[...nextauth]/route.ts,b/c/bcf596ce8b37631c966600945180495390459aeb
