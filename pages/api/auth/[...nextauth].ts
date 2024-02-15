@@ -10,7 +10,6 @@ export const authOptions: AuthOptions = {
       primaryUserFlow: process.env.NEXT_PUBLIC_AZURE_AD_B2C_PRIMARY_USER_FLOW,
       authorization: { params: { scope: "offline_access openid" } },
       checks: ["state"],
-      // dd
       // authorization: {
       //   params: {
       //     scope: "offline_access openid",
