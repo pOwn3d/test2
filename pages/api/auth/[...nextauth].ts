@@ -37,7 +37,7 @@ const options = {
           email: profile.emails.length ? profile.emails[0] : null,
         }
       },
-      clientId: process.env.NEXT_PUBLIC_AZURE_AD_B2C_CLIENT_ID,
+      client_id: process.env.NEXT_PUBLIC_AZURE_AD_B2C_CLIENT_ID,
       clientSecret: process.env.AZURE_AD_B2C_CLIENT_SECRET,
       idToken: true,
       state: false,
