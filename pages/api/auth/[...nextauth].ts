@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth'
 
-const tenantName = process.env.AUTH_TENANT_NAME
-const tenantGuid = process.env.AUTH_TENANT_GUID
+const tenantName = process.env.NEXT_PUBLIC_AZURE_AD_B2C_TENANT_NAME
+const tenantGuid = process.env.NEXT_PUBLIC_AZURE_AD_B2C_TENANT_NAME
 const userFlow = process.env.USER_FLOW
 
 const options = {
@@ -37,8 +37,8 @@ const options = {
           email: profile.emails.length ? profile.emails[0] : null,
         }
       },
-      clientId: process.env.AUTH_CLIENT_ID,
-      clientSecret: process.env.AUTH_CLIENT_SECRET,
+      clientId: process.env.NEXT_PUBLIC_AZURE_AD_B2C_CLIENT_ID,
+      clientSecret: process.env.AZURE_AD_B2C_CLIENT_SECRET,
       idToken: true,
       state: false,
     },
