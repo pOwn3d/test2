@@ -11,6 +11,7 @@ const options = {
   secret: process.env.JWT_SECRET,
   pages: {
     signOut: '/auth/signout',
+    signIn: '/auth/azure-login-check'
   },
   providers: [
     {
@@ -38,7 +39,6 @@ const options = {
         }
       },
       clientId: "070f4453-b962-43e4-bc7a-46f46f09c6b8",
-
       clientSecret: process.env.AZURE_AD_B2C_CLIENT_SECRET,
       idToken: true,
       state: false,
