@@ -11,3 +11,5 @@ G
 pages/api/auth/index.ts,f/b/fb404eeeaa906c5c8f9718e3c5baf5e095298bd7
 U
 %pages/api/auth/[...nextauth]/route.ts,b/c/bcf596ce8b37631c966600945180495390459aeb
+]
+-pages/api/auth/[...nextauth]/[...nextauth].ts,b/8/b897b120203ff18a138935c32132b3ee4446d49d
