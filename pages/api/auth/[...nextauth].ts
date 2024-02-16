@@ -45,4 +45,5 @@ const options = {
   ],
 }
 
+// @ts-ignore
 export default (req, res) => NextAuth(req, res, options)
